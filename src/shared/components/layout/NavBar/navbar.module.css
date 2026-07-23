@@ -1,0 +1,27 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 85px;
+    background-color: var(--neutral-950);
+    color: var(--neutral-50);
+    align-items: center;
+    margin-top: 0;
+} 
+
+.navBar h2 {
+    font-size: 35px;
+    color: var(--primary-500);
+    margin-left: 25px;
+    font-family: var(--font-body);
+    font-weight: 700;
+}
+
+.navBar ul {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
