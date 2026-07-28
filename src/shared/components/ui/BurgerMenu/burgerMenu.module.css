@@ -1,0 +1,12 @@
+.menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+    margin-right: 13px;
+}
+
+@media (max-width: 700px) {
+    .menu {
+        display: block;
+    }
+}

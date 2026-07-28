@@ -1,3 +1,5 @@
+
+
 .navItem{
     list-style: none;
     position: relative;
@@ -19,7 +21,7 @@
 .cta a {
     color: var(--neutral-900);
     background-color: var(--primary-400);
-    padding: 12px 13px;
+    padding: 13px 14px;
     border-radius: 14px;
     transition: box-shadow 0.15s ease-in-out;
 }
@@ -37,8 +39,7 @@
     left: 0;
     width: 0;
     height: 3px;
-    background-color: var(--primary-500);
-    
+    background-color: var(--primary-500); 
     transition: width 0.12s ease-in-out;
     border-radius: 10px;
 }
@@ -53,4 +54,22 @@
     position: absolute;
     background-color: transparent;
     width: 0;
+}
+
+@media (max-width: 930px) {
+	.navItem a {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 780px) {
+	.navItem a {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 700px) {
+        .cta {
+        margin-top: 13px;
+    }
 }
