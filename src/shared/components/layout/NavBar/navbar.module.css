@@ -49,10 +49,13 @@
 }
 
 @media (max-width: 700px) {
+    .navBar {
+        position: relative;
+    }
+
     .navBar ul {
-        opacity: 1;
         transform: translateX(150%);
-        position: absolute;
+        position: fixed;
         display: flex;
         flex-direction: column;
         justify-content: center;

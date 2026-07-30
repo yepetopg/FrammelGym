@@ -16,7 +16,6 @@ export default function BurgerMenu({active, setActive}) {
   }
   setActive(!active);
   setOpen(!open);
-  console.log(active)
 };
 
   return (
