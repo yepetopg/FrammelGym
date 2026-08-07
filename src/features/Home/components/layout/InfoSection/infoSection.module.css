@@ -1,0 +1,23 @@
+.infoSection {
+    overflow-x: hidden;
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+
+@media (max-width: 520px) {
+    .infoSection {
+        gap: 3px;
+    }
+}
+
+@media (max-width: 450px) {
+    .infoSection {
+        gap: 1px;
+    }
+}
