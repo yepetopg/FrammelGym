@@ -1,0 +1,112 @@
+.planCard {
+	width: 30vw;
+	height: 70vh;
+	color: var(--neutral-50);
+	font-family: var(--font-body);
+	display: flex;
+	flex-direction: column;
+	background-color: var(--neutral-800);
+	padding: 35px;
+	padding-top: 40px;
+	margin: 15px 10px;
+	border-radius: 14px;
+	border: 1px solid var(--neutral-800);
+	margin-bottom: 30px;
+	position: relative;
+	transition: border 0.2s ease;
+}
+
+.planCard h3 {
+	color: var(--neutral-50);
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.planCard ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	gap: 25px;
+}
+
+.planCard span {
+	display: none;
+}
+
+.planCard:hover {
+	border: 1px solid var(--primary-400);
+}
+
+.header {
+	height: 25%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-bottom: 18px
+}
+
+.features {
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.more {
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: end
+}
+
+.more a {
+	width: 90%;
+	text-decoration: none;
+	color: var(--neutral-100);
+	border: solid 1px var(--neutral-100);
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 25px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: background-color 0.15s ease;
+}
+
+.more a:hover {
+	background-color: var(--neutral-700);
+}
+
+.planCard.active {
+	justify-content: center;
+	height: 85vh;	
+	margin-bottom: 0;
+	border: 1px solid var(--primary-500);
+}
+
+.planCard.active h3 {
+	color: var(--primary-500);
+}
+
+.planCard.active span {
+	display: block;
+	color: var(--neutral-950);
+	background-color: var(--primary-500);
+	position: absolute;
+	top: -14px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	width: 150px;
+	text-align: center;
+	border-radius: 20px;
+	padding: 5px 0;
+}
+
+.planCard.active a {
+	background-color: var(--primary-500);
+	color: var(--neutral-950);
+	border: none;
+}
+

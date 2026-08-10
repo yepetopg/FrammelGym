@@ -1,0 +1,15 @@
+.planCardFeature {
+	display: flex;
+	flex-direction: row;
+	align-items: center;	
+}
+
+.planCardFeature img {
+	width: 17px;
+	height: 17px;
+	margin-right: 6px;
+}
+
+.planCardFeature p {
+	color: var(--neutral-300);
+}
