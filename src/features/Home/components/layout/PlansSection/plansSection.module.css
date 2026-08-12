@@ -2,7 +2,7 @@
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	align-items: end;	
+	align-items: end;
 	position: relative
 }
 
@@ -24,4 +24,62 @@
 .title p {
 	font-size: 18px;
 	color: var(--neutral-300);
+}
+
+/*--Diseño Responsive PC--*/
+
+@media (min-width: 2000px), (min-height: 1200px) {
+  .title h2 {
+    font-size: 60px;
+  }
+
+  .title p {
+    font-size: 27px;
+  }
+
+  .title {
+    margin: 50px 0;
+  }
+
+  .plans {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 1900px), (max-height: 1080px) {
+  .title h2 {
+    font-size: 53px;
+  }
+
+  .title p {
+    font-size: 23px;
+  }
+
+  .title {
+    margin: 45px 0;
+  }
+
+  .plans {
+    gap: 3px;
+  }
+}
+
+@media (max-width: 1430px), (max-height: 850px) {
+  .title h2 {
+    font-size: 10px;
+  }
+
+  .title p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1350px), (max-height:780px) {
+  .title h2 {
+    font-size: 45px;
+  }
+
+  .title p {
+    font-size: 20px;
+  }
 }
