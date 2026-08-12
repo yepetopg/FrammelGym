@@ -218,4 +218,48 @@
   }
 }
 
+/*--Diseño Reponsive Tablet--*/
+
+@media (max-width: 1250px) {
+  .planCard {
+    width: 60vw;
+    height: 45vh;
+  }
+
+  .planCard.active {
+    width: 60vw;
+    height: 45vh;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1000px) AND (max-width: 1350px) AND (min-heigth: 1700px) AND (max-height: 1950px) {
+  .planCard {
+    height: 20vh;
+  }
+}
+
+@media (min-width: 1000px) AND (max-width: 1100px) AND (min-height: 500px) AND (max-height: 600px) {
+  .planCard {
+    width: 60vw;
+    height: 75vh;
+  }
+
+  .planCard.active {
+    width: 60vw;
+    height: 75vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .planCard {
+    width: 70vw;
+    height: 55vh;
+  }
+
+  .planCard.active {
+    width: 70vw;
+    height: 55vh;
+  }
+}
 
