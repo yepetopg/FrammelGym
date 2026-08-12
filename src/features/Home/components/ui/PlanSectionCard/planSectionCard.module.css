@@ -263,3 +263,34 @@
   }
 }
 
+/*--Diseño Responsive Mobile--*/
+
+@media (max-width: 600px) {
+  .planCard {
+    width: 85vw;
+  }
+
+  .planCard.active {
+    width: 85vw;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .planCard {
+    width: 85vw;
+    height: 70vh;
+  }
+
+  .planCard.active {
+    height: 70vh;
+  }
+
+  .header h3 {
+    font-size: 25px;
+  }
+
+  .planCard.active .header {
+    height: 30%;
+  }
+}
