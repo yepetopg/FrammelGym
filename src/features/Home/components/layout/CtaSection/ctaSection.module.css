@@ -1,0 +1,95 @@
+.ctaSection {
+  color: var(--neutral-50);
+  background: linear-gradient(180deg, var(--neutral-950), var(--primary-950));
+  width: 100vw;
+  height: 60vh;
+  font-family: var(--font-heading);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.ctaSection h2 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.ctaSection > p {
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*--Diseño Responsive PC--*/
+
+@media (min-width: 2000px) {
+  .ctaSection {
+    height: 50vh;
+  }
+
+  .ctaSection h2 {
+    font-size: 75px;
+  }
+
+  .ctaSection > p {
+    font-size: 25px;
+  }
+}
+
+/*--Diseño Responsive Tablet--*/
+
+@media (max-width: 730px) {
+  .ctaSection h2 {
+    font-size: 45px;
+  }
+
+  .ctaSection > p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ctaSection h2 {
+    font-size: 42px;
+  }
+
+  .ctaSection > p {
+    font-size: 13px;
+  }
+}
+
+/*--Diseño Responsive Mobile--*/
+
+@media (max-width: 550px) {
+  .ctaSection h2 {
+    font-size: 32px;
+  }
+
+  .ctaSection > p {
+    font-size: 12px;
+    margin: 0 15px
+  }
+}
+
+@media (max-width: 420px) {
+  .ctaSection h2 {
+    font-size: 26px;
+  }
+
+  .ctaSection > p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 410px) {
+  .ctaSection h2 {
+    font-size: 20px;
+  }
+
+  .ctaSection > p {
+    margin: 0 10px;
+  }
+}
