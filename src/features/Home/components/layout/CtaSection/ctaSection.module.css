@@ -76,17 +76,17 @@
 
 @media (max-width: 420px) {
   .ctaSection h2 {
-    font-size: 26px;
+    font-size: 29px;
   }
 
   .ctaSection > p {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 
 @media (max-width: 410px) {
   .ctaSection h2 {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .ctaSection > p {
