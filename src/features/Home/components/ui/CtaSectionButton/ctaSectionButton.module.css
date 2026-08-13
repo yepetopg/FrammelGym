@@ -47,3 +47,18 @@
   }
 }
 
+/*--Diseño Responsive Mobile--*/
+
+@media (max-width: 550px) {
+  .ctaSectionButton {
+    padding: 13px 25px;
+    gap: 2px;
+  }
+}
+
+@media (max-width: 380px) {
+  .ctaSectionButton {
+    padding: 10px 20px;
+  }
+}
+

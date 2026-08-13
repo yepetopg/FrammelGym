@@ -60,3 +60,36 @@
     font-size: 13px;
   }
 }
+
+/*--Diseño Responsive Mobile--*/
+
+@media (max-width: 550px) {
+  .ctaSection h2 {
+    font-size: 32px;
+  }
+
+  .ctaSection > p {
+    font-size: 12px;
+    margin: 0 15px
+  }
+}
+
+@media (max-width: 420px) {
+  .ctaSection h2 {
+    font-size: 26px;
+  }
+
+  .ctaSection > p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 410px) {
+  .ctaSection h2 {
+    font-size: 20px;
+  }
+
+  .ctaSection > p {
+    margin: 0 10px;
+  }
+}
