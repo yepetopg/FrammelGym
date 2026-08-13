@@ -1,0 +1,23 @@
+.ctaSection {
+  color: var(--neutral-50);
+  background: linear-gradient(160deg, var(--neutral-950), var(--primary-950));
+  width: 100vw;
+  height: 60vh;
+  font-family: var(--font-heading);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.ctaSection h2 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.ctaSection > p {
+  opacity: 0.9;
+}

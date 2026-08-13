@@ -1,0 +1,26 @@
+.ctaSectionButton {
+  text-decoration: none;
+  color: var(--neutral-950);
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-500);
+  align-items: center;
+  padding: 23px 28px;
+  border-radius: 30px;
+  margin-top: 19px;
+  gap: 6px;
+  box-shadow: 1px 1px 13px 3px var(--primary-900);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.ctaSectionButton p {
+  color: var(--neutral-950);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.ctaSectionButton:hover {
+  background-color: var(--primary-500);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px var(--primary-600);
+}
