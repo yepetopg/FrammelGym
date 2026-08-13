@@ -16,7 +16,7 @@
 .ctaSectionButton p {
   color: var(--neutral-950);
   font-weight: 900;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .ctaSectionButton:hover {
@@ -24,3 +24,26 @@
   transform: translateY(-2px);
   box-shadow: 0 5px 20px var(--primary-600);
 }
+
+/*--Diseño Responsive PC--*/
+
+@media (min-width: 1900px) {
+  .ctaSectionButton {
+    padding: 30px 70px;
+  }
+
+  .ctaSectionButton p {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .ctaSectionButton {
+    padding: 35px 75px;
+  }
+
+  .ctaSectionButton p {
+    font-size: 25px;
+  }
+}
+

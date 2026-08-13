@@ -21,3 +21,19 @@
 .ctaSection > p {
   opacity: 0.9;
 }
+
+/*--Diseño Responsive PC--*/
+
+@media (min-width: 2000px) {
+  .ctaSection {
+    height: 50vh;
+  }
+
+  .ctaSection h2 {
+    font-size: 75px;
+  }
+
+  .ctaSection > p {
+    font-size: 25px;
+  }
+}
