@@ -6,7 +6,7 @@ export const PlansSection = () => {
 		<section>
 			<div className={plansSectionStyle.title}>
 				<h2>Planes de membresía</h2>
-				<p>Elige el camano que mejor se adapte a tus objetivos</p>
+				<p>Elige el camino que mejor se adapte a tus objetivos</p>
 			</div>
 			<div className={plansSectionStyle.plans}>
 				<PlanSectionCard title={'Plan Básico'} description={'Acceso libre a máquinas y zonas de cardio.'} features={['Acceso a máquinas', 'Evaluación inicial']} href={'/'} linkTitle={'Consultar precio'} isPopular={false} />

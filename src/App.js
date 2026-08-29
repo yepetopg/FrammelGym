@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
-import HomePage from './features/Home/pages/HomePage';
+import { ROUTES } from './config/routes';
 import './index.css'
 
 function App() {
@@ -7,7 +7,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<HomePage />}/>
+          {ROUTES.map((route) => (
+            <Route 
+              key={route.path}
+              path={route.path} 
+              element={<route.element />}
+            />
+          ))}
         </Routes>
       </BrowserRouter>
     </>
