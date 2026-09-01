@@ -15,11 +15,12 @@
 }
 
 .navBar h2 {
-  font-size: 36px;
+  font-size: clamp(1.85rem, 3vw, 2.2rem);
   color: var(--primary-500);
   margin-left: 25px;
   font-family: var(--font-body);
   font-weight: 700;
+  width: 50%;
 }
 
 .navBar ul {
@@ -28,28 +29,14 @@
   flex-direction: row;
   justify-content: space-around;
   gap: 27px;
-  background-color: transparent;
+  z-index: 9999;
 }
 
 /*--Diseño Responsive PC--*/
 
-@media (min-width: 2000px) {
-  .navBar {
-    height: 12vh;
-  }
-
-  .navBar h2 {
-    font-size: 58px;
-  }
-}
-
 @media (max-width: 2000px) {
   .navBar {
     height: 12vh;
-  }
-
-  .navBar h2 {
-    font-size: 48px;
   }
 }
 
@@ -57,19 +44,11 @@
   .navBar {
     height: 13vh;
   }
-
-  .navBar h2 {
-    font-size: 45px;
-  }
 }
 
 @media (max-width: 930px) {
   .navBar ul {
     gap: 20px;
-  }
-
-  .navBar h2 {
-    font-size: 33px;
   }
 }
 
@@ -77,15 +56,12 @@
   .navBar ul {
     gap: 15px;
   }
-
-  .navBar h2 {
-    font-size: 28px;
-  }
 }
 
 @media (max-width: 700px) {
   .navBar {
     position: relative;
+    width: 100vw;
   }
 
   .navBar ul {
@@ -105,6 +81,7 @@
   }
 
   .navBar h2 {
+    width: 100%;
     z-index: 1;
   }
 
