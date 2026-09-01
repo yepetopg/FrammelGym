@@ -1,27 +1,35 @@
 import heroSectionStyles from './heroSection.module.css'
-
+import heroImage from '../HeroSection/images/hero.jpg'
 export const HeroSection = () => {
     return (
-        <section className={heroSectionStyles.heroSection}>
+        <section className={heroSectionStyles.heroSection}
+        style={{ backgroundImage: `url(${heroImage})` }}>
             <div className={heroSectionStyles.heroContent}>
              
-                <h1>
-                    ENTRENA.
-                    <br/>
-                    SUPERA.
-                    <br/>
-                    <span> TRANSFORMA.</span>
+                 <h1>
+                    El gimnasio donde tu edad no importa, solo tu{' '}
+                    <span>decisión.</span>
                 </h1>
                 <p>
-                    Lleva tu entrenamiento al siguiente nivel y alcanza
-                    tus objetivos.
+                    Entrena acompañado y sin limitaciones. Más de 15 años
+                    formando personas en Santa Rosa de Osos con experiencia
+                    profesional e integral.
                 </p>
+            <div className={heroSectionStyles.heroActions}>
+                    <a href="#contacto">
+                        Inscribirme ahora →
+                    </a>
+
+                    <a href="#planes">
+                        Ver planes
+                    </a>
+                </div>
                  <div className={heroSectionStyles.heroAccent}></div>
 
                 
             </div>
              <div className={heroSectionStyles.heroGlow}></div>
-             <div className={heroSectionStyles.heroScrollLine}></div>
+            
         </section>
     )
 }
