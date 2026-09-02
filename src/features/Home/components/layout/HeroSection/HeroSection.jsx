@@ -1,9 +1,8 @@
 import heroSectionStyles from './heroSection.module.css'
-import heroImage from '../HeroSection/images/hero.jpg'
+
 export const HeroSection = () => {
     return (
-        <section className={heroSectionStyles.heroSection}
-        style={{ backgroundImage: `url(${heroImage})` }}>
+        <section className={heroSectionStyles.heroSection}>
             <div className={heroSectionStyles.heroContent}>
              
                  <h1>
