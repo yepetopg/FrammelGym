@@ -1,0 +1,174 @@
+.trainersSection {
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80 px 20 px;
+    box-sizing: border-box;
+
+     background-color: var(--neutral-950);
+     overflow: hidden;
+}
+
+.trainerCard {
+    width: 70%;
+    max-width: 850px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 50px 60px;
+    box-sizing: border-box;
+
+    background-color: var(--neutral-900);
+    border-radius: 10px;
+    
+    text-align: center;
+}
+.imageContainer {
+    position: relative;
+
+    width: 180px;
+    height: 180px;  
+
+    margin-bottom: 35px;
+
+    border: 3px solid var(--primary-500);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagePlaceholder {
+    width: 100%;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: var(--neutral-800);
+}
+
+.experience {
+    position: absolute;
+
+    bottom: -12px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    padding: 6px 14 px;
+    border-radius: 999px;
+
+    background-color: var(--primary-500);
+    color: var(--neutral-950);
+
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+.info {
+    width: 100%;
+}
+.info h3 {
+    margin: 0 0 8px;
+
+    color: var(--neutral-50);
+
+    font-family: var(--font-heading);
+    font-size:var(--text-heading-xl);
+    font-weight: var(--font-extrabold);
+
+    line-height: (--leading-tight);
+}
+
+.role {
+    margin: 0 0 25px;
+
+    color: var(--primary-500);
+
+    font-family: var(--font-body);
+    font-size: var(--text-body-sm);
+    font-weight: (--font-bold);
+    letter-spacing: 1px;
+}
+.phrase {
+    max-width: 650px;
+
+    margin: 0 auto;
+
+     color: var(--neutral-300);
+    font-family: var(--font-body);
+    font-size: var(--text-body-md);
+    font-weight: var(--font-regular);
+    line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 768px) {
+
+    .trainersSection {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+
+    .trainerCard {
+        width: 90%;
+        padding: 45px 30px;
+    }
+
+    .imageContainer {
+        width: 160px;
+        height: 160px;
+    }
+
+    .info h3 {
+        font-size: 22px;
+    }
+
+    .phrase {
+        font-size: 14px;
+    }
+}
+@media (max-width: 520px) {
+
+    .trainersSection {
+        padding: 50px 15px;
+    }
+
+    .trainerCard {
+        width: 95%;
+        padding: 40px 20px;
+    }
+
+    .imageContainer {
+        width: 140px;
+        height: 140px;
+    }
+
+    .info h3 {
+        font-size: 20px;
+    }
+
+    .role {
+        font-size: 10px;
+        letter-spacing: 0.7px;
+    }
+
+    .phrase {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .experience {
+        font-size: 10px;
+        padding: 5px 12px;
+    }
+}
