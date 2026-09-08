@@ -24,7 +24,7 @@ export const HeroSection = () => {
                         Ver planes
                     </a>
                 </div>
-                 <div className={heroSectionStyles.heroAccent}></div>
+                 
 
                 
             </div>

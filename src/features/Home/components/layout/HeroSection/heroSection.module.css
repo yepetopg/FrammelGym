@@ -151,14 +151,7 @@ color: var(--neutral-950);
     }
 }
 
-.heroAccent {
-    width: 100px;
-    
-    height: 4px;
-    margin-top: 25px;
 
-    background-color: var(--primary-500);
-}
 
 .heroGlow {
     position: absolute;
