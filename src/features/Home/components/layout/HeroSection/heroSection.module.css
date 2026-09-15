@@ -36,6 +36,7 @@
     max-width: 1200px;
 
     margin: 0 auto;
+    padding: 80px 40px;
 
     display: flex;
     flex-direction: column;
@@ -53,12 +54,12 @@ text-align: left;
 }
 
 .heroContent h1 {
-    max-width: 650px;
+    max-width: 720px;
     margin: 0 0 25px; 
     color: var(--neutral-50);
     font-family: var(--font-heading);
 
-    /* Tamaño principal del título del Hero en desktop */
+    
 
     font-size: 72px;
     font-weight: var(--font-extrabold);
@@ -68,13 +69,12 @@ text-align: left;
 }
 .heroContent h1 span {
     color: var(--primary-500);
-    display: inline-block;
-    white-space: pre;
+    
     text-shadow: 0 0 30px rgba(34, 197, 94, 0.35);
 }
 
 .heroContent p {
-    margin-top: 25px;
+    margin: 28px 0 0;
     max-width: 520px;
 
     color: var(--neutral-50);
@@ -88,9 +88,9 @@ text-align: left;
     display: flex;
     
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 12px;
-    margin-top: 25px;
+    margin-top: 32px;
 }
 .heroActions a {
 display: inline-flex;
@@ -131,6 +131,9 @@ color: var(--neutral-950);
         min-height: calc(100vh - 85px);
         padding: 0 25px;
     }
+    .heroContent{
+        padding: 60px 20px;
+    }
     .heroContent h1 {
         font-size: 55px;
         letter-spacing: -1.5px;
@@ -139,12 +142,20 @@ color: var(--neutral-950);
         font-size: 15px;
         max-width: 450px;
     }
+    .heroActions {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 
 
 @media (max-width: 520px) {
     .heroSection {
+        min-height: calc(100vh-85px);
         padding: 0 20px; 
+    }
+    .heroContent{
+        padding: 50px 10px;
     }
     .heroContent h1{
         font-size: 43px;
@@ -166,25 +177,23 @@ color: var(--neutral-950);
 }
 
 @media (max-width: 380px){
+    .heroSection {
+        padding: 0 15px;
+    }
+
+    .heroContent {
+        padding: 40px 5px;
+    }
+
     .heroContent h1 {
         font-size: 38px;
     }
+
     .heroContent p {
         font-size: 13px;
     }
 }
 
-.heroAccent {
-    width: 100px;
-    
-    height: 5px;
-    margin-top: 25px;
-
-    background-color: var(--primary-500);
-    box-shadow: 0 0 18px rgba(34, 197, 94, 0.45);
-
-    border-radius: 999px;
-}
 
 .heroGlow {
     position: absolute;
