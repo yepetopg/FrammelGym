@@ -29,7 +29,7 @@ export const HeroSection = () => {
                     </a>
                 </article>
 
-                 <div className={heroSectionStyles.heroAccent}></div>
+                 
 
                  </div>
 
