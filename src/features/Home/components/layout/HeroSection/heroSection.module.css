@@ -1,50 +1,138 @@
 .heroSection {
-    width: 100%;
-    min-height: calc(100vh - 85px);
+     position: relative;
+    min-height: 85vh;
+
     display: flex;
+    
     align-items: center;
-    padding: 0 7vw;
-    background-color: var(--neutral-950);
-    position: relative;
+    
+
+    background-image: url('../../../assets/images/gym-hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     overflow: hidden;
 }
+.heroSection::before {
+    content: '';
+    position: absolute;
+    inset: 0;
 
-.heroContent {
+   background:
+    radial-gradient(
+        circle at center,
+        rgba(0, 0, 0, 0.40) 0%,
+        rgba(0, 0, 0, 0.70) 100%
+    );
+
+    z-index: 1;
+}
+.heroInner {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 80px 40px;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
-    max-width: 900px;
+}
+
+.heroContent {
+width: 100%;
+padding: 80px 40px;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+text-align: left;
 }
 
 .heroContent h1 {
-    margin: 0; 
+    max-width: 720px;
+    margin: 0 0 25px; 
     color: var(--neutral-50);
     font-family: var(--font-heading);
+
+    
+
     font-size: 72px;
     font-weight: var(--font-extrabold);
     line-height: 0.95;
     letter-spacing: -2px;
+    text-shadow: 2px 0 0 currentColor;
 }
 .heroContent h1 span {
     color: var(--primary-500);
-    display: inline-block;
+    
     text-shadow: 0 0 30px rgba(34, 197, 94, 0.35);
 }
 
 .heroContent p {
-    margin-top: 25px;
-    max-width: 550px;
+    margin: 28px 0 0;
+    max-width: 520px;
 
-    color: var(--neutral-400);
+    color: var(--neutral-50);
     font-family: var(--font-body);
     font-size: var(--text-body-lg);
     line-height: var(--leading-relaxed);
+    text-shadow: 1px 0 0 currentColor;
+} 
+
+.heroActions{
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 32px;
 }
+.heroActions a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+    
+    padding: 11px 20px;
+    border-radius: 999px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+
+}
+.heroActions a img {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.heroActions a:first-child{
+background-color: var(--primary-500);
+color: var(--neutral-950);
+}
+.heroActions a:last-child{
+    border: 1px solid var(--neutral-500);
+    background-color: transparent;
+    color: var(--neutral-50);
+}
+.heroActions a:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
 @media (max-width: 768px) {
     .heroSection{
         min-height: calc(100vh - 85px);
         padding: 0 25px;
+    }
+    .heroContent{
+        padding: 60px 20px;
     }
     .heroContent h1 {
         font-size: 55px;
@@ -54,39 +142,58 @@
         font-size: 15px;
         max-width: 450px;
     }
+    .heroActions {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 
 
 @media (max-width: 520px) {
     .heroSection {
+        min-height: calc(100vh - 85px);
         padding: 0 20px; 
+    }
+    .heroContent{
+        padding: 50px 10px;
     }
     .heroContent h1{
         font-size: 43px;
         letter-spacing: -1px;
     }
     .heroContent p {
-        font-size: 43px;
+        font-size: 14px;
         margin-top: 20px;
     }
-} 
+        .heroActions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .heroActions a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media (max-width: 380px){
+    .heroSection {
+        padding: 0 15px;
+    }
+
+    .heroContent {
+        padding: 40px 5px;
+    }
+
     .heroContent h1 {
         font-size: 38px;
     }
+
     .heroContent p {
         font-size: 13px;
     }
 }
 
-.heroAccent {
-    width: 100px;
-    min-width: 60px;
-    height: 4px;
-    margin-top: 25px;
-
-    background-color: var(--primary-500);
-}
 
 .heroGlow {
     position: absolute;
@@ -94,7 +201,7 @@
     width: 450px;
     height: 450px;
 
-    right: 5%;
+    right: -5%;
     top: 50%;
 
     transform: translateY(-50%);
@@ -105,17 +212,4 @@
     filter: blur(80px);
     pointer-events: none;
 
-}
-.heroScrollLine {
-    position: absolute;
-
-    bottom: 30px;
-    left: 50%;
-
-    width: 1px;
-    height: 35px;
-
-    background-color: var(--neutral-700);
-
-    opacity: 0.6;
 }
