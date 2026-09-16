@@ -1,0 +1,26 @@
+.trainersSection {
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 70px 25px;
+    box-sizing: border-box;
+
+    background-color: var(--neutral-950);
+}
+
+@media (max-width: 768px) {
+    .trainersSection {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 520px) {
+    .trainersSection {
+        padding: 50px 15px;
+    }
+}
