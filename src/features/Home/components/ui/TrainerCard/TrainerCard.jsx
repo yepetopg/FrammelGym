@@ -1,6 +1,6 @@
 import trainerCardStyles from './TrainerCard.module.css'
 
-const TrainerCard = ({ name, role, phrase, image }) => {
+export const TrainerCard = ({ name, role, phrase, image }) => {
     return (
         <article className={trainerCardStyles.card}>
             <img
@@ -20,4 +20,3 @@ const TrainerCard = ({ name, role, phrase, image }) => {
     )
 }
 
-export default TrainerCard
