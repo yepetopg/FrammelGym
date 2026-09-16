@@ -1,5 +1,5 @@
 import TrainersSectionStyles from './TrainersSection.module.css'
-import  TrainerCard  from '../../ui/TrainerCard/TrainerCard'
+import  { TrainerCard } from '../../ui/TrainerCard/TrainerCard'
 import trainerPlaceholder from '../../../assets/images/trainer_placeholder.jpg'
 export const TrainersSection = () => {
     return (
