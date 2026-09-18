@@ -10,9 +10,8 @@ export default function HomePage() {
         <>
             <NavBar />
             <HeroSection/>
-            <InfoSection />
-			      <PlansSection />
-             <TrainersSection />     
+            <PlansSection />
+            <TrainersSection />
             <CtaSection />
         </>
     )
