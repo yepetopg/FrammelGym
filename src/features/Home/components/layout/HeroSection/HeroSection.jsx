@@ -1,4 +1,5 @@
 import heroSectionStyles from './heroSection.module.css'
+import { InfoSection } from '../InfoSection/InfoSection';
 
 export const HeroSection = () => {
     return (
@@ -28,13 +29,10 @@ export const HeroSection = () => {
                         Ver planes
                     </a>
                 </article>
-
-                 
-
                  </div>
 
              <div className={heroSectionStyles.heroGlow}></div>
-            
+            <InfoSection />
         </section>
     )
 }
