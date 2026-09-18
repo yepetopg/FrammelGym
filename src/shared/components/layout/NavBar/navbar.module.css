@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 100vw;
   height: 15vh;
-  background-color: color-mix(in srgb, var(--neutral-950) 80%, transparent);
+  background-color: color-mix(in srgb, var(--neutral-950) 95%, transparent);
   backdrop-filter: blur(8px);
   box-shadow: 0px 0px 17px 7px var(--neutral-950);
   color: var(--neutral-50);
