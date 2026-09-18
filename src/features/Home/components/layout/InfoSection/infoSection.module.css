@@ -10,7 +10,7 @@
     background: linear-gradient(color-mix(in srgb, var(--neutral-950) 60%, transparent), var(--neutral-950));
     backdrop-filter: blur(8px);
     position: relative;
-    z-index: 99999999;
+    z-index: 99999;
 }
 
 
