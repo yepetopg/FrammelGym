@@ -1,0 +1,143 @@
+.locationSection {
+  background-color: var(--neutral-950);
+  padding: 80px 24px;
+}
+
+.locationContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.locationInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationTitle {
+  margin: 0 0 40px;
+  color: var(--neutral-50);
+  font-family: var(--font-heading);
+  font-size: var(--text-display-lg);
+  font-weight: var(--font-bold);
+}
+
+.locationItem {
+  margin-bottom: 24px;
+}
+
+.locationItemHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.locationIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--primary-500);
+}
+
+.locationItem h3 {
+  margin: 0;
+  color: var(--primary-500);
+  font-family: var(--font-heading);
+  font-size: var(--text-heading-md);
+  font-weight: var(--font-semibold);
+}
+
+.locationItem p {
+  margin: 0;
+  color: var(--neutral-300);
+  font-family: var(--font-body);
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-normal);
+}
+
+.locationItem p + p {
+  margin-top: 4px;
+}
+
+.locationButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 16px;
+  padding: 14px 24px;
+  background-color: var(--primary-500);
+  color: var(--neutral-950);
+  font-family: var(--font-body);
+  font-size: var(--text-body-md);
+  font-weight: var(--font-semibold);
+  text-decoration: none;
+  border-radius: 8px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.locationButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(34, 197, 94, 0.25);
+}
+
+.locationMap {
+  min-height: 420px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.locationMap iframe {
+  width: 100%;
+  height: 420px;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .locationContainer {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .locationMap {
+    min-height: 360px;
+  }
+
+  .locationMap iframe {
+    height: 360px;
+  }
+}
+
+@media (max-width: 600px) {
+  .locationSection {
+    padding: 64px 24px;
+  }
+
+  .locationTitle {
+    margin-bottom: 32px;
+    font-size: var(--text-heading-xl);
+  }
+
+  .locationItem {
+    margin-bottom: 20px;
+  }
+
+  .locationMap {
+    min-height: 300px;
+  }
+
+  .locationMap iframe {
+    height: 300px;
+  }
+
+  .locationButton {
+    width: 100%;
+  }
+}
