@@ -1,4 +1,5 @@
 import styles from "./InstallationsSection.module.css";
+import { InstallationCard } from "../../ui/InstallationCard/InstallationCard";
 
 import installation01 from "../../../assets/images/instalaciones_1.jpg";
 import installation02 from "../../../assets/images/instalaciones_2.jpg";
@@ -16,47 +17,41 @@ export const InstallationsSection = () => {
         </h2>
 
         <div className={styles.installationsGallery}>
-          <div className={styles.installationItem}>
-            <img
-              src={installation01}
-              alt="Zona de entrenamiento del gimnasio"
-            />
-          </div>
+          <InstallationCard
+            image={installation01}
+            alt="Zona de entrenamiento del gimnasio"
+            className={styles.installationItem}
+          />
 
-          <div className={styles.installationItem}>
-            <img
-              src={installation02}
-              alt="Máquinas de entrenamiento del gimnasio"
-            />
-          </div>
+          <InstallationCard
+            image={installation02}
+            alt="Máquinas de entrenamiento del gimnasio"
+            className={styles.installationItem}
+          />
 
-          <div className={styles.installationItem}>
-            <img
-              src={installation03}
-              alt="Zona de pesas del gimnasio"
-            />
-          </div>
+          <InstallationCard
+            image={installation03}
+            alt="Zona de pesas del gimnasio"
+            className={styles.installationItem}
+          />
 
-          <div className={styles.installationItem}>
-            <img
-              src={installation04}
-              alt="Zona de cardio del gimnasio"
-            />
-          </div>
+          <InstallationCard
+            image={installation04}
+            alt="Zona de cardio del gimnasio"
+            className={styles.installationItem}
+          />
 
-          <div className={styles.installationItem}>
-            <img
-              src={installation05}
-              alt="Zona de entrenamiento funcional"
-            />
-          </div>
+          <InstallationCard
+            image={installation05}
+            alt="Zona de entrenamiento funcional"
+            className={styles.installationItem}
+          />
 
-          <div className={styles.installationItem}>
-            <img
-              src={installation06}
-              alt="Interior de las instalaciones del gimnasio"
-            />
-          </div>
+          <InstallationCard
+            image={installation06}
+            alt="Interior de las instalaciones del gimnasio"
+            className={styles.installationItem}
+          />
         </div>
       </div>
     </section>
