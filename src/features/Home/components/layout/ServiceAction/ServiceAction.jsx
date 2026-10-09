@@ -1,9 +1,9 @@
-import ServiceActionCard from "../../ui/serviceActionCard/ServiceActionCard.jsx";
+import { ServiceActionCard } from "../../ui/serviceActionCard/ServiceActionCard.jsx";
 import styles from "./ServiceAction.module.css";
 
-import icon1 from "../../../../../assets/service1.png";
-import icon2 from "../../../../../assets/service2.png";
-import icon3 from "../../../../../assets/service3.png";
+import icon1 from "./icons/service1.png";
+import icon2 from "./icons/service2.png";
+import icon3 from "./icons/service3.png";
 
 export function ServiceAction() {
     return (
