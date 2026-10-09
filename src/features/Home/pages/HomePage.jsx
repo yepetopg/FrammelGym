@@ -4,6 +4,7 @@ import { InfoSection } from "../components/layout/InfoSection/InfoSection";
 import { PlansSection } from "../components/layout/PlansSection/PlansSection";
 import { TrainersSection } from "../components/layout/TrainersSection/TrainersSection";
 import { InstallationsSection } from "../components/layout/InstallationsSection/InstallationsSection";
+import { LocationSection } from "../components/layout/LocationSection/LocationSection";
 import {CtaSection } from "../components/layout/CtaSection/CtaSection"
 
 export default function HomePage() {
@@ -13,8 +14,9 @@ export default function HomePage() {
             <HeroSection/>
             <InfoSection />
 			      <PlansSection />
-             <TrainersSection />   
-               <InstallationsSection />
+            <TrainersSection />   
+            <InstallationsSection />
+            <LocationSection />
             <CtaSection />
         </>
     )
