@@ -1,12 +1,16 @@
 .infoSection {
     overflow-x: hidden;
-    width: 90vw;
-    height: 10vh;
+    width: 100vw;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    margin-left: 25px;
+    padding-left: 25px;
+    background: linear-gradient(color-mix(in srgb, var(--neutral-950) 60%, transparent), var(--neutral-950));
+    backdrop-filter: blur(8px);
+    position: relative;
+    z-index: 99999;
 }
 
 
