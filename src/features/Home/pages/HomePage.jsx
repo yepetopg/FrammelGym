@@ -14,8 +14,8 @@ export default function HomePage() {
             <HeroSection/>
             <InfoSection />
 			      <PlansSection />
-             <TrainersSection />   
-               <InstallationsSection />
+            <TrainersSection />   
+            <InstallationsSection />
             <LocationSection />
             <CtaSection />
         </>
