@@ -3,6 +3,7 @@ import { InfoSection } from "../components/layout/InfoSection/InfoSection";
 import { PlansSection } from "../components/layout/PlansSection/PlansSection";
 import {CtaSection } from "../components/layout/CtaSection/CtaSection"
 import { ServiceAction } from "../components/layout/ServiceAction/ServiceAction";
+import { Footer } from "../components/layout/footer/footer";
 
 export default function HomePage() {
     return (
@@ -12,7 +13,7 @@ export default function HomePage() {
             <ServiceAction/>
 			<PlansSection />
             <CtaSection />
-           
+            <Footer />
         </>
     )
 }

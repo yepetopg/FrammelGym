@@ -6,6 +6,6 @@ export const CtaSectionButton = () => {
   <Link to={"/"} className={ctaSectionButtonStyle.ctaSectionButton}>
       <p>Empieza ahora</p>
       <img src="/arrow-right.svg" alt="Flecha a la derecha" />
-  </Link> 
+  </Link>
   )
 }
