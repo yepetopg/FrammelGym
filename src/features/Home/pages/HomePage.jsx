@@ -6,7 +6,6 @@ import { ServiceAction } from "../components/layout/ServiceAction/ServiceAction"
 import { TestimonialSection } from "../components/layout/TestimonialsSection/testimonialSection"
 import {Footer} from "../components/layout/footer/footer";
 import {TrainersSection} from "../components/layout/TrainersSection/TrainersSection";
-import {InstallationCard} from "../components/ui/InstallationCard/InstallationCard";
 import {InstallationsSection} from "../components/layout/InstallationsSection/InstallationsSection";
 import {LocationSection} from "../components/layout/LocationSection/LocationSection";
 
