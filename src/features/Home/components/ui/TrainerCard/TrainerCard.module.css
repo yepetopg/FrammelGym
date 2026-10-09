@@ -1,0 +1,94 @@
+.card {
+    width: 100%;
+    max-width: 650px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px;
+    box-sizing: border-box;
+
+    background-color: var(--neutral-900);
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border: 3px solid var(--primary-500);
+    border-radius: 50%;
+
+    margin-bottom: 25px;
+}
+
+.info {
+    width: 100%;
+}
+
+.name {
+    margin: 0 0 8px;
+
+    color: var(--neutral-50);
+
+    font-family: var(--font-heading);
+    font-size: var(--text-heading-xl);
+    font-weight: var(--font-extrabold);
+
+    line-height: var(--leading-tight);
+}
+
+.role {
+    margin: 0 0 20px;
+
+    color: var(--primary-500);
+
+    font-family: var(--font-body);
+    font-size: var(--text-body-sm);
+    font-weight: var(--font-bold);
+
+    letter-spacing: 1px;
+}
+
+.phrase {
+    max-width: 550px;
+
+    margin: 0 auto;
+
+    color: var(--neutral-300);
+
+    font-family: var(--font-body);
+    font-size: var(--text-body-md);
+    font-weight: var(--font-regular);
+
+    line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 520px) {
+    .card {
+        padding: 30px 20px;
+    }
+
+    .image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .role {
+        font-size: 10px;
+        letter-spacing: 0.7px;
+    }
+
+    .phrase {
+        font-size: 14px;
+    }
+}
