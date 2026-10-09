@@ -1,8 +1,8 @@
 .section {
     width: 100%;
     padding: 70px 0;
-    background: #111111;
-    font-family: inter;
+background-color: var(--secondary-950);
+    font-family:  'Inter', sans-serif;
 }
 
 .container {
@@ -13,7 +13,7 @@
 .title {
     margin: 0;
     text-align: center;
-    color: #f5f5f5;
+color: var(--primary-50);
     font-size: 33px;
     font-weight: 700;
 }
@@ -22,7 +22,7 @@
     width: 46px;
     height: 4px;
     margin: 12px auto 42px;
-    background: #35d66f;
+background-color: var(--primary-400);
     border-radius: 10px;
 }
 
