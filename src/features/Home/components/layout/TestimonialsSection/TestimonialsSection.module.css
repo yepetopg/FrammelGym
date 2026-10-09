@@ -1,0 +1,29 @@
+.seccion-testimonios {
+    width: 100%;
+    padding: 90px 24px;
+    background-color: var(--secondary-950);
+    color:  var(--neutral-50);
+    box-sizing: border-box;
+}
+
+.seccion-testimonios__contenedor {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.seccion-testimonios__titulo {
+    margin: 0 0 48px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--neutral-50);
+    font-family: var(--font-heading);
+}
+
+
+.seccion-testimonios__rejilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 28px;
+}
