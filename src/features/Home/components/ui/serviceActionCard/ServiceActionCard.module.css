@@ -38,3 +38,37 @@
     font-size: 20px;
     line-height: 1.55;
 }
+
+@media (max-width: 900px) {
+    .card {
+        padding: 22px;
+    }
+
+    .card h3 {
+        font-size: 21px;
+    }
+
+    .card p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        min-height: 0;
+        padding: 20px;
+    }
+
+    .icon {
+        margin-bottom: 14px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
