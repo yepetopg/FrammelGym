@@ -6,18 +6,17 @@ import { TrainersSection } from "../components/layout/TrainersSection/TrainersSe
 import { InstallationsSection } from "../components/layout/InstallationsSection/InstallationsSection";
 import { LocationSection } from "../components/layout/LocationSection/LocationSection";
 import {CtaSection } from "../components/layout/CtaSection/CtaSection"
+import { ServiceAction } from "../components/layout/ServiceAction/ServiceAction";
 
 export default function HomePage() {
     return (
         <>
             <NavBar />
-            <HeroSection/>
-            <InfoSection />
+            <InfoSection /> 
+            <ServiceAction/>
 			      <PlansSection />
-            <TrainersSection />   
-            <InstallationsSection />
-            <LocationSection />
             <CtaSection />
+           
         </>
     )
 }

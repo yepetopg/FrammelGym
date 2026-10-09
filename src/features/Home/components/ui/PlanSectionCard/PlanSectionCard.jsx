@@ -1,4 +1,3 @@
-import { Link } from 'react-router';
 import { PlanSectionCardFeature } from '../PlanSectionCardFeature/PlanSectionCardFeature';
 import planSectionCardStyle from './planSectionCard.module.css';
 
@@ -16,7 +15,7 @@ export const PlanSectionCard = ({title, description, features, href, linkTitle, 
 				</ul>
 			</div>
 			<div className={planSectionCardStyle.more}>
-				<Link to={href}>{linkTitle}</Link>
+				<a href={href}>{linkTitle}</a>
 			</div>
 		</div>
 	)
