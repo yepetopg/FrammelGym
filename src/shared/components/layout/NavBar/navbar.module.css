@@ -14,13 +14,12 @@
   z-index: 9999999;
 }
 
-.navBar h2 {
-  font-size: clamp(1.85rem, 3vw, 2.2rem);
-  color: var(--primary-500);
+.navBar img {
+  width: 78px;
+  height: 100.5px;
   margin-left: 25px;
   font-family: var(--font-body);
   font-weight: 700;
-  width: 50%;
 }
 
 .navBar ul {
@@ -42,7 +41,7 @@
 
 @media (max-width: 1500px) {
   .navBar {
-    height: 13vh;
+    height: 15vh;
   }
 }
 
@@ -85,7 +84,7 @@
     transition: transform 0.5s ease-in;
   }
 
-  .navBar h2 {
+  .navBar img {
     width: 80%;
     z-index: 99999;
   }
