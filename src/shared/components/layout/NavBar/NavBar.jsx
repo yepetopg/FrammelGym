@@ -13,7 +13,7 @@ export const NavBar = () => {
 
             <ul className={active ? navBarStyle.active : ''}>
                 <NavItem text={"Inicio"} href={"/"} cta={false}/>
-                <NavItem text={"Servicios"} href={"/"}/>
+                <NavItem text={"Servicios"} href={"/servicios"}/>
                 <NavItem text={"Planes"} href={"/"}/>
                 <NavItem text={"Nosotros"} href={"/"}/>
                 <NavItem text={"Contacto"} href={"/"}/>
