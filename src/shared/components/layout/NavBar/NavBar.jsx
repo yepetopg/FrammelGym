@@ -1,6 +1,7 @@
 import { useState } from "react";
 import BurgerMenu from "../../ui/BurgerMenu/BurgerMenu"
 import { NavItem } from "../../ui/NavItem/NavItem"
+import logo_frammelgym from "../../../assets/logo_frammelgym.png"
 import navBarStyle from './navbar.module.css'
 
 export const NavBar = () => {
@@ -9,7 +10,7 @@ export const NavBar = () => {
 
     return(
         <nav className={navBarStyle.navBar}>
-            <h2>Frammel Gym</h2>
+            <img src={logo_frammelgym} alt="Logotipo de frammelgym" />
 
             <ul className={active ? navBarStyle.active : ''}>
                 <NavItem text={"Inicio"} href={"/"} cta={false}/>
