@@ -17,7 +17,7 @@ export const NavBar = () => {
                 <NavItem text={"Servicios"} href={"/"}/>
                 <NavItem text={"Planes"} href={"/plans"}/>
                 <NavItem text={"Nosotros"} href={"/"}/>
-                <NavItem text={"Contacto"} href={"/"}/>
+                <NavItem text={"Contacto"} href={"/contacto"}/>
                 <NavItem text={"Inscríbete"} href={"/"} cta={true}/>
             </ul>
 
