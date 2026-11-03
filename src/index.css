@@ -41,17 +41,17 @@ body {
 
     /*==> Colores Primarios - Verde Esmeralda <==*/
 
-    --primary-50: #F0FDF4;
-    --primary-100: #DCFCE7;
-    --primary-200: #BBF7D0;
-    --primary-300: #86EFAC;
-    --primary-400: #4ADE80;
-    --primary-500: #22C55E;
-    --primary-600: #16A34A;
-    --primary-700: #15803D;
-    --primary-800: #166534;
-    --primary-900: #14532D;
-    --primary-950: #052E16;
+    --primary-50:  #EFF8FE;
+    --primary-100: #D9EFFD;
+    --primary-200: #B3DEFB;
+    --primary-300: #7DC8F8;
+    --primary-400: #3DAEF2;
+    --primary-500: #1E9FE8;
+    --primary-600: #0D7DC4;
+    --primary-700: #0B639E;
+    --primary-800: #0D5280;
+    --primary-900: #0F4468;
+    --primary-950: #092B45;
 
 
     /*==> Colores Secundarios - Gris Carbón <==*/
