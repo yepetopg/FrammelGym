@@ -118,7 +118,7 @@ export default function UsPage() {
                         <div className={styles.block36}>
                             <div className={styles.block37}>
                                 <img className={styles.block38}
-                                    data-alt="Modern dark athletic gym floor in Santa Rosa de Osos with matte black dumbbells, heavy duty power racks, dark steel plates, atmospheric emerald green rim lighting and deep slate textures in a cinematic photography style"
+                                    alt="Modern dark athletic gym floor in Santa Rosa de Osos with matte black dumbbells, heavy duty power racks, dark steel plates, atmospheric emerald green rim lighting and deep slate textures in a cinematic photography style"
                                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuAu4tznYK9DVc0_UvyIdG8oR-16lf_x39V34J8kM903FiwakH8pZL3lEqFzZP0pXwtACJ3TBHmY8BBoL5cMo3tukJDMd1BHhedJKwY6j8UZo_kxraBqbU95IZFtvtq4AkMIHNJob-MJWZoAMvJ9col4UxK8rLuPEe2gltY-eVGQEsjzyBwaAm531F6x6EnG6wMGL4lgxqBKtCbYq6xGsCOvzxC5bJImKnfaKPmoWsc" />
                                 <div
                                     className={styles.block39}>
@@ -251,7 +251,7 @@ export default function UsPage() {
                             <div className={styles.block61}>
                                 <div className={styles.block62}>
                                     <img className={styles.block63}
-                                        data-alt="Professional striking portrait of athletic director Albeiro Escobar, mature coach with disciplined posture, athletic black polo shirt with minimalist branding, dark moody photography studio lighting with soft emerald green edge light, cinematic sports portrait"
+                                        alt="Professional striking portrait of athletic director Albeiro Escobar, mature coach with disciplined posture, athletic black polo shirt with minimalist branding, dark moody photography studio lighting with soft emerald green edge light, cinematic sports portrait"
                                         src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Sre6uI_f4B3wo49Rxwoakq78cMIVIeiHKRQ-RwnZdssLc96azW1jTEqbezkk9sHLtug-V2LvCjhgwbfWwHVrs49jdl7fyjYG6Fal60eTcLjJUVKwoL2sAAuyaanA6U766w4F0r-e5jbsleEi051kfYRTiADSFbq1PSmQVJ3NiUI6qmqdVjaws4Jm89WebNQTbkY_NCEOUWTvUX_heRpxW6SKPb49mrCvf96Fo8s" />
                                     <div
                                         className={styles.block64}>
@@ -346,7 +346,7 @@ export default function UsPage() {
                         <div className={styles.block86}>
                             <div className={styles.block87}>
                                 <img className={styles.block88}
-                                    data-alt="Heavy dumbbell rack and professional powerlifting stations inside FRAMMEL gym, high contrast dark architectural lighting, clean rubber gym floor, emerald green illuminated details, cinematic angle"
+                                    alt="Heavy dumbbell rack and professional powerlifting stations inside FRAMMEL gym, high contrast dark architectural lighting, clean rubber gym floor, emerald green illuminated details, cinematic angle"
                                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0HMPSn8XlSMpdgdP5d--UFMrZzK6hG6tg2euNfuJqMmVebIIMB3LZXTa8W8bMB1YM8z3KcNWpmPBoaVuZMa-WZ6Gm3EOTJp_50DLhzZuFpFui7GsrUFYnogpq5sC6Ve03lG2Mu1LHdptTtGDx3P0pMUKe76WV1Afsfuu-zrDn_1OwluXrdL1J_av-vtr2-0BJJjx9AmqKLvTFQLp5y3fc8SaZdbwfeIE0uCfV0-s" />
                                 <div
                                     className={styles.block89}>
@@ -371,7 +371,7 @@ export default function UsPage() {
                         <div className={styles.block86}>
                             <div className={styles.block87}>
                                 <img className={styles.block88}
-                                    data-alt="Specialized Glute and Hip Thrust machine station in a dark modern gym, ergonomic lumbar support backrest, barbell collars and heavy resistance bands, cinematic dark luxury aesthetic"
+                                    alt="Specialized Glute and Hip Thrust machine station in a dark modern gym, ergonomic lumbar support backrest, barbell collars and heavy resistance bands, cinematic dark luxury aesthetic"
                                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2DjdUAECQy5SWT20k4R91LF9wTeSnnMMUHV9eZ2l3oeJmUbnepNZoydUy-bOGNffQiuik_q2e5ZZxVbwAnhpOkaLrzCio3FfvsSH3SbjSleb3J702rTAq-qm-W8jCscZtWuSs5c9fEAcQ5vzPWzU4v6GXYmxxpYp1hnj1j7zwOSzl2mrVGymxu3z4Bbp4TL_Q-_yczhZihKldmziIyK5rrixuUzKcBXx-VvBpfgs" />
                                 <div
                                     className={styles.block89}>
@@ -396,7 +396,7 @@ export default function UsPage() {
                         <div className={styles.block86}>
                             <div className={styles.block87}>
                                 <img className={styles.block88}
-                                    data-alt="Cardiovascular and functional training area with rowers, stationary bikes and synthetic turf strip, atmospheric overhead linear green neon lighting in a dark minimal fitness room"
+                                    alt="Cardiovascular and functional training area with rowers, stationary bikes and synthetic turf strip, atmospheric overhead linear green neon lighting in a dark minimal fitness room"
                                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4VTWr-VftPtoaiAfiqevaQpPXoc8hoD_mPH5lHoaV-b6_JWJVWPuQpThECgazElOhOVVeS1500ZrzyWgxbpzJTVlyXSyX9WJxoMRLXg71HOd0QN8thtmsbV5puOO-CWyCcqQRv2pWg9VpnyJnv4NlvrY2a8LZE0EYj7fnzaNb_XRhxilUKRPpb3_lxPrJx_dI3TokvCtSouaCYneaJSj4eyAS0dZ5ge09FpM8gvQ" />
                                 <div
                                     className={styles.block89}>
@@ -421,7 +421,7 @@ export default function UsPage() {
                         <div className={styles.block86}>
                             <div className={styles.block87}>
                                 <img className={styles.block88}
-                                    data-alt="Clean architectural gym changing rooms and luxury hydration lounge with matte black secure lockers, minimalist washbasins and premium healthy espresso corner in warm dim light"
+                                    alt="Clean architectural gym changing rooms and luxury hydration lounge with matte black secure lockers, minimalist washbasins and premium healthy espresso corner in warm dim light"
                                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMYlQd-s5_IktLS8QcoCB6_n_XTUtqW2UDmh1G0ljDcJSNG6Z6Lo0L5VsCct3ig9e-zyLqS_wbu1VD86C0F5f2ikCRQZjywgIQ4LUu9HoGK_H8JWmJxs0v1RcSQ6Giv_HJ4KkqbCI--k-Fm8HXQIxFARAjM0sxm2CkUlKsrmrg-9KjhrYD-XEXhkZdWiiUebTNGLnhZ537lijIcqbtBLv16YukkFjx7MmSvkfJ7Ig" />
                                 <div
                                     className={styles.block89}>
