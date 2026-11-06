@@ -106,7 +106,7 @@ export default function UsPage() {
                                 <div className={styles.block30}></div>
                                 <p className={styles.block31}>
                                     “El verdadero progreso físico no se mide solo en el peso que levantas hoy, sino en cómo se mueven tus
-                                    articulaciones dentro de 20 años.”
+                                    articulaciones dentro de 20 años”
                                 </p>
                                 <div className={styles.block32}>
                                     <span className={styles.block33}>Albeiro Escobar</span>
